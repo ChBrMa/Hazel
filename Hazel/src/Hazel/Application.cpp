@@ -16,7 +16,7 @@ namespace Hazel {
 
 	void Application::Run()
 	{
-		WindowResizeEvent e(1280, 720);
+		WindowResizeEvent e(12830, 720);
 		if (e.IsInCategory(EventCategoryApplication))
 		{
 			HZ_TRACE(e);
